@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><span class="text-warning">Adoption</span> Center</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="view-breeds.html">View pets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="view-events.html">View Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="message.html">Contact us</a>
+                  </li>
+             
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-padding" id="register">
+      
+        <div class="container bg-light mt-5">
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pt-5">
+                        <h2>Adoption Status</h2>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                    <table class="table table-striped mt-5">
+                        <thead>
+                            <tr>
+                                <th width="20%">Request Id</th>
+                                <th width="20%">Submission Date</th>
+                                <th width="40%">Details</th>
+                                <th width="20%">Status</th>
+                              </tr>
+      
+                        </thead>
+                        <tbody>
+                            <tr>
+                          
+                                <td>REQ123</td>
+                                <td >03-04-2024</td>
+                                <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td ><span class="badge text-bg-warning">Approval Pending</span></td>
+                              </tr>
+                              <tr>
+                                
+                                  <td>REQ456</td>
+                                  <td >01-05-2024</td>
+                                  <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                  <td ><span class="badge text-bg-primary">Approved</span></td>
+                                </tr>
+                                <tr>
+                                
+                                  <td>REQ123</td>
+                                  <td >03-04-2024</td>
+                                  <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                  <td ><span class="badge text-bg-warning">Approval Pending</span></td>
+                                </tr>
+                                <tr>
+                                  
+                                    <td>REQ456</td>
+                                    <td >01-05-2024</td>
+                                    <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                    <td ><span class="badge text-bg-primary">Approved</span></td>
+                                  </tr>
+                                  <tr>
+                                
+                                      <td>REQ123</td>
+                                      <td >03-04-2024</td>
+                                      <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                      <td ><span class="badge text-bg-warning">Approval Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                      
+                                        <td>REQ456</td>
+                                        <td >01-05-2024</td>
+                                        <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                        <td ><span class="badge text-bg-primary">Approved</span></td>
+                                      </tr>
+                                      <tr>
+                                
+                                          <td>REQ123</td>
+                                          <td >03-04-2024</td>
+                                          <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                          <td ><span class="badge text-bg-danger">Rejected</span></td>
+                                        </tr>
+                                        <tr>
+                                          
+                                            <td>REQ456</td>
+                                            <td >01-05-2024</td>
+                                            <td >Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                            <td ><span class="badge text-bg-primary">Approved</span></td>
+                                          </tr>
+      
+                        </tbody>
+                      </table>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                 
+       
+    
+
+        <footer class="bg-dark text-center p-2">
+            <div class="container">
+                <p class="text-white">All rights reserved @website name</p>
+            </div>
+        </footer>
+        
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          </body>
+        </html>
